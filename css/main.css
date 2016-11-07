@@ -35,8 +35,54 @@ body {
 /** home content **/
 .content {
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .highlightquestion {
   color:#EB5757;
+}
+
+/** Category image styling **/
+.cat-banner {
+  margin-top: 20px;
+}
+
+.cat-image {
+  margin-bottom: 20px;
+}
+
+
+/** Header styling **/
+h1, h2, h3, h4, h5, h6 {
+  color: #333333;
+}
+
+/** Footer styling **/
+.footer-text {
+  text-align: center;
+  color: #BDBDBD;
+  padding-top: 40px;
+}
+
+.footer-text p {
+  margin-bottom: 0px;
+}
+
+/** sticky footer **/
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 100px;
+}
+.site-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  background-color:#4F4F4F;
+  height: 100px;
 }
