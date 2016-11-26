@@ -11,6 +11,7 @@ body {
 }
 
 .banner-image {
+  position:relative;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -85,4 +86,12 @@ body {
   /* Set the fixed height of the footer here */
   background-color:#4F4F4F;
   height: 100px;
+}
+
+.social-buttons {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 60%;
+  padding-top: 5px;
 }
