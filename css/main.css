@@ -1,12 +1,14 @@
 /** Fonts **/
 body {
   font-family: 'Roboto Slab', serif;
+  background-color: #E1F5FE;
 }
 
 /** Image styling **/
 .logo {
-  padding-top: 5px;
-  padding-bottom: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 2em;
   height: 50px;
 }
 
@@ -19,13 +21,22 @@ body {
 /** Divider styling **/
 .divider {
   height: 25px;
-  background-color: #D32F2F;
+  background-color: #009688;
 }
 
 /** Navbar styling **/
 .navbar {
-  background-color:#D32F2F;
+  background-color:#009688;
   border-radius: 0px;
+}
+
+.main-nav {
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.nav li {
+  margin-left: 2em !important;
 }
 
 .nav-link {
@@ -40,7 +51,7 @@ body {
 }
 
 .highlightquestion {
-  color:#EB5757;
+  color:#004D40;
 }
 
 /** Category image styling **/
@@ -94,4 +105,13 @@ body {
   text-align: center;
   top: 60%;
   padding-top: 5px;
+}
+
+#truck-image {
+  margin-bottom: 20px;
+}
+
+#phone-number {
+  font-size: 3.5em;
+  margin-top: 4em;
 }
