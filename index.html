@@ -3,14 +3,22 @@ layout: default
 ---
 
 <div class="home">
-    <div class="banner-image">
-        <div class = "social-buttons">
-            <a href = "#" class="btn btn-social-icon btn-facebook btn-md">
-                <span style = "color:white;" class="fa fa-facebook"></span>
-            </a>
+    <div class = "row">
+        <div class = "col-md-6">
+            <img class="m-x-auto img-fluid" src="{{ " /imgs/logo.png " | prepend: site.baseurl }}" />
         </div>
-        <img class="m-x-auto img-fluid" src="{{ "/imgs/BannerImage.png" | prepend: site.baseurl }}" />
+        <div class = "col-md-6">
+            <div class="banner-image">
+                <div class="social-buttons">
+                    <a href="#" class="btn btn-social-icon btn-facebook btn-md">
+                        <span style="color:white;" class="fa fa-facebook"></span>
+                    </a>
+                </div>
+                <img class="m-x-auto img-fluid" src="{{ " /imgs/BannerImage.png " | prepend: site.baseurl }}" />
+            </div>
+        </div>
     </div>
+    
     <div class="divider"></div>
 
     <div class="container-fluid content">
